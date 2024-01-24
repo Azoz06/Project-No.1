@@ -1,0 +1,132 @@
+nav{
+
+    background-color: white;
+    box-shadow: 1px 3px 1px 1px rgba(27, 27, 27, 0.2);
+    height: 50px;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ 
+}
+  nav a {
+    position:relative ;
+  text-decoration:none ;
+  font-size: 25px;
+  font-family:sans-serif ;
+  text-transform:capitalize ;
+  color: #00AB84;
+  transition: 0.3;
+  -webkit-transition:0.3s ;
+  -moz-transition: 0.3s;
+  -moz-transition:0.3s ;
+  -o-transition: 0.3s;
+  padding:0 10px ;
+  }
+  a:before {
+    content:'' ;
+    position: absolute;
+    left: 0;
+    height:3px ;
+    width: 0%;
+    background-color:darkgray;
+   bottom: -7px; ; 
+   transition: 0.3s;
+   -webkit-transition:0.3s ;
+   -moz-transition: 0.3s;
+   -moz-transition:0.3s ;
+   -o-transition: 0.3s;
+    border-radius: 10px;
+  }
+  a:hover::before {
+  width: 100%;
+  }
+  #logo{
+        position: relative;
+        left:95%;
+  }
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.hr{
+    width:50px;
+    height: 5px;
+    background-color: #00AB84;
+    border-radius: 5px;
+}
+
+#p1{
+    text-align: left;
+    padding-bottom:100px;
+    padding-right: 600px;
+}
+
+.img1{
+    position: relative;
+    left:70%;
+    right: 10PX;
+    top: -400PX;
+    box-shadow: 10px 5px 5px #00AB84;
+}
+#p2{
+    text-align: left;
+    padding-bottom:100px;
+    padding-right: 600px;
+}
+
+#imgh1{
+    background-image:url(../IMG/img4-h.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:370px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+    height: 310px;
+    background-color:rgb(216, 216, 216) ;
+    border-radius: 5px;
+}
+.footer img{
+    width: 100px;
+    left:auto;
+    
+    
+}
+#h2f1{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+}
+.footer li{
+    text-align:center ;
+    list-style: none;
+}
+.footer h6{
+    text-align: center;
+ }
+ .name0{
+    display: flex;
+    gap: 78px;
+    justify-content: center;
+    align-items:center;
+ }
+ .num{
+    /* flex-direction: column; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+ }
+ 
